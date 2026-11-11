@@ -1,0 +1,19 @@
+:root{color:#eeece7;background:#111310;--line:#33382f;--accent:#bbc6a7;color-scheme:dark}
+header{border-color:var(--line)}
+.dot{background:#bbc6a7}
+.intro-bottom p,.section-top p{color:#aeb4a5}
+.showcase button,.gallery button{background:#1b1f19}
+.filters button:hover{background:#2b3226}
+.filters button.selected{background:#c0cbaa;color:#182016}
+.gallery{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:28px 24px;columns:auto;align-items:start}
+.gallery figure{margin:0}
+.gallery figcaption{color:#b0b6a6}
+.expand{background:#1b211be6;color:#f2f0e9}
+.about{background:#1c211a}
+.about-copy p{color:#b6bdad}
+.specialties span{border-color:#4a5542;color:#d0d6c6}
+.contact{background:#232d20}
+.skip{background:#333e2c;color:#fff}
+nav.open{background:#171b15}
+@media(max-width:1000px){.gallery{grid-template-columns:repeat(2,minmax(0,1fr));gap:24px 18px}}
+@media(max-width:600px){.gallery{gap:22px 12px}.hero-aside>button{height:235px}}

@@ -1,0 +1,11 @@
+node_modules/
+dist/
+*.log
+contact-sheet.jpg
+originals/
+ordered-originals/
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
